@@ -1146,6 +1146,12 @@ ul.experience-chart h4 {
   text-align: center;
 }
 
+@media only screen and (max-width: 570px) {
+  .need-service {
+    height: 350px;
+  }
+}
+
 .need-service:after {
   content: '';
   position: absolute;

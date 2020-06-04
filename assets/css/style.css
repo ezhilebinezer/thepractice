@@ -429,7 +429,7 @@ input:checked + label span:last-child {
 }
 
 .first-name {
-  font-size: 35px;
+  font-size: 23px;
   font-weight: 200;
   padding-bottom: 20px;
 }

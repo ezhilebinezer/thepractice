@@ -1782,7 +1782,7 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
-@media (max-height: 535px) and (max-width: 468px) {
+@media (max-height: 535px) and (max-width: 290px) {
   .first-name,
   .last-name {
     display: inline-block;

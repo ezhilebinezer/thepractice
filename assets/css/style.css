@@ -1786,7 +1786,7 @@ textarea.form-control::-webkit-input-placeholder,
   .first-name,
   .last-name {
     display: inline-block;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0;
   }
   .occupation {

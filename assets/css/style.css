@@ -440,7 +440,7 @@ input:checked + label span:last-child {
   margin-bottom: 42px;
 }
    
-   
+/*   
 @media only screen and (min-width: 350px) {
   .last-name { 
     font-size: 35px;
@@ -448,7 +448,8 @@ input:checked + label span:last-child {
 
    }
 }
-
+*/
+   
 .occupation {
   font-size: 18px;
   font-weight: 400;

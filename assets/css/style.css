@@ -442,8 +442,8 @@ input:checked + label span:last-child {
 
 @media only screen and (min-width: 350px) {
   .last-name { 
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 35px;
+    font-weight: 300;
 
    }
 }
@@ -518,7 +518,7 @@ input:checked + label span:last-child {
 .fullscreen-nav-holder a {
   color: white;
   font-family: 'Rubik', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   text-decoration: none;
 }

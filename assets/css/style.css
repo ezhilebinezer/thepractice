@@ -337,6 +337,7 @@ input + label span {
 
 input + label span:first-child {
   top: 0px;
+}
 
 input + label span:last-child {
   top: 19px;
@@ -428,28 +429,26 @@ input:checked + label span:last-child {
 }
 
 .first-name {
-  font-size: 30px;
-  font-weight: 200;
+  font-size: 40px;
+  font-weight: 400;
   padding-bottom: 20px;
 }
 
 .last-name {
-  font-size: 70px;
-  font-weight: 400;
+  font-size: 100px;
+  font-weight: 450;
   line-height: 1;
   margin-bottom: 42px;
 }
-   
-/*   
-@media only screen and (min-width: 350px) {
+
+@media only screen and (max-width: 570px) {
   .last-name { 
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 150;
 
    }
 }
-*/
-   
+
 .occupation {
   font-size: 18px;
   font-weight: 400;
@@ -520,8 +519,8 @@ input:checked + label span:last-child {
 .fullscreen-nav-holder a {
   color: white;
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -1787,7 +1786,7 @@ textarea.form-control::-webkit-input-placeholder,
   .first-name,
   .last-name {
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
     margin: 0;
   }
   .occupation {

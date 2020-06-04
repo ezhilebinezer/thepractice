@@ -337,7 +337,6 @@ input + label span {
 
 input + label span:first-child {
   top: 0px;
-}
 
 input + label span:last-child {
   top: 19px;
@@ -441,10 +440,10 @@ input:checked + label span:last-child {
   margin-bottom: 42px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (min-width: 350px) {
   .last-name { 
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 200;
 
    }
 }
@@ -519,8 +518,8 @@ input:checked + label span:last-child {
 .fullscreen-nav-holder a {
   color: white;
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 300;
   text-decoration: none;
 }
 

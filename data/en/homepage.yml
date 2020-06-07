@@ -25,8 +25,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/try1.jpg"
-  first_name : "The Online Fitness Portal"
-  last_name : "The Practice"
+  first_name : "The Practice"
+  last_name : ""
   
 
 ########################### About ##################################

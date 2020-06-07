@@ -429,7 +429,7 @@ input:checked + label span:last-child {
 }
 
 .first-name {
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 400;
   padding-bottom: 20px;
 }
@@ -441,10 +441,10 @@ input:checked + label span:last-child {
   margin-bottom: 42px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
   .last-name { 
-    font-size: 15px;
-    font-weight: 150;
+    font-size: 30px;
+    font-weight: 100;
 
    }
 }
@@ -491,6 +491,7 @@ input:checked + label span:last-child {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+   
 }
 
 .fullscreen-nav-holder {
@@ -502,6 +503,8 @@ input:checked + label span:last-child {
   width: 100%;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
 }
 
 .fullscreen-nav-holder div {
@@ -519,8 +522,8 @@ input:checked + label span:last-child {
 .fullscreen-nav-holder a {
   color: white;
   font-family: 'Rubik', sans-serif;
-  font-size: 10px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -533,6 +536,7 @@ input:checked + label span:last-child {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 50px;
+  padding-top: 100px;"
 }
 
 .full-nav-icons {
@@ -544,7 +548,7 @@ input:checked + label span:last-child {
   width: 300px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1782,11 +1786,11 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
-@media (max-height: 535px) and (max-width: 290px) {
+@media (max-height: 535px) and (max-width: 468px) {
   .first-name,
   .last-name {
     display: inline-block;
-    font-size: 30px;
+    font-size: 35px;
     margin: 0;
   }
   .occupation {
